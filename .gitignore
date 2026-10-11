@@ -1,0 +1,50 @@
+# סביבות פיתוח
+.idea/
+.kiro/
+.vscode/
+
+# קבצי סודות
+.env
+*.env
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# JavaScript
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# דאטה כבד
+data/*
+!data/scripts/
+!data/scripts/**
+
+gov_downloads/
+
+# מודלים ואינדקסים
+backend/models/
+models/
+*.faiss
+*.index
+*.bin
+*.pkl
+
+# קובצי מידע כבדים
+*.xml
+*.gz
+*.csv
+*.parquet
+*.zip
+
+# קבצים זמניים
+*.log
+.DS_Store
+Thumbs.db
+
+# מסמך גדול שאינו חלק מהקוד
+Pic-It-Well-Pick-Smarter.pdf
